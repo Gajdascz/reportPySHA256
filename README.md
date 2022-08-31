@@ -1,4 +1,4 @@
-# pySHA256
+# reportPySHA256
 
 A personal implementation of the SHA256 algorithm in Python that creates a dynamic report for each input message that is hashed.
 
