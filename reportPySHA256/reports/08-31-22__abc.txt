@@ -1,0 +1,143 @@
+SHA256 REPORT: 08-31-22__abc  {abc}
+---------------------------
+
+Input Message:                  abc
+  |---> Message Size:           24 bits
+  |---> (448-(l+1))%512 = k:    423 bits
+  |---> Block + k:              448 bits
+  |---> Padded Block:           512 bits
+
+Initial Hash Values:  
+  |---> H0:  6a09e667
+  |---> H1:  bb67ae85
+  |---> H2:  3c6ef372
+  |---> H3:  a54ff53a
+  |---> H4:  510e527f
+  |---> H5:  9b05688c
+  |---> H6:  1f83d9ab
+  |---> H7:  5be0cd19
+
+K-Constants:  
+428a2f98, 71374491, b5c0fbcf, e9b5dba5, 3956c25b, 59f111f1, 923f82a4, ab1c5ed5, 
+d807aa98, 12835b01, 243185be, 550c7dc3, 72be5d74, 80deb1fe, 9bdc06a7, c19bf174, 
+e49b69c1, efbe4786, fc19dc6, 240ca1cc, 2de92c6f, 4a7484aa, 5cb0a9dc, 76f988da, 
+983e5152, a831c66d, b00327c8, bf597fc7, c6e00bf3, d5a79147, 6ca6351, 14292967, 
+27b70a85, 2e1b2138, 4d2c6dfc, 53380d13, 650a7354, 766a0abb, 81c2c92e, 92722c85, 
+a2bfe8a1, a81a664b, c24b8b70, c76c51a3, d192e819, d6990624, f40e3585, 106aa070, 
+19a4c116, 1e376c08, 2748774c, 34b0bcb5, 391c0cb3, 4ed8aa4a, 5b9cca4f, 682e6ff3, 
+748f82ee, 78a5636f, 84c87814, 8cc70208, 90befffa, a4506ceb, bef9a3f7, c67178f2
+
+parsedBlock Content:
+  |---> Number of Blocks: 1
+  |---> parsedBlock[0]  = 61626380
+  |---> parsedBlock[1]  = 00000000
+  |---> parsedBlock[2]  = 00000000
+  |---> parsedBlock[3]  = 00000000
+  |---> parsedBlock[4]  = 00000000
+  |---> parsedBlock[5]  = 00000000
+  |---> parsedBlock[6]  = 00000000
+  |---> parsedBlock[7]  = 00000000
+  |---> parsedBlock[8]  = 00000000
+  |---> parsedBlock[9]  = 00000000
+  |---> parsedBlock[10]  = 00000000
+  |---> parsedBlock[11]  = 00000000
+  |---> parsedBlock[12]  = 00000000
+  |---> parsedBlock[13]  = 00000000
+  |---> parsedBlock[14]  = 00000000
+  |---> parsedBlock[15]  = 00000018
+      |---> Message Schedule[0]  = 61626380
+      |---> Message Schedule[1]  = 00000000
+      |---> Message Schedule[2]  = 00000000
+      |---> Message Schedule[3]  = 00000000
+      |---> Message Schedule[4]  = 00000000
+      |---> Message Schedule[5]  = 00000000
+      |---> Message Schedule[6]  = 00000000
+      |---> Message Schedule[7]  = 00000000
+      |---> Message Schedule[8]  = 00000000
+      |---> Message Schedule[9]  = 00000000
+      |---> Message Schedule[10]  = 00000000
+      |---> Message Schedule[11]  = 00000000
+      |---> Message Schedule[12]  = 00000000
+      |---> Message Schedule[13]  = 00000000
+      |---> Message Schedule[14]  = 00000000
+      |---> Message Schedule[15]  = 00000018
+
+                  a          b          c          d          e          f          g          h   
+      _t=0:   5d6aebcd   6a09e667   bb67ae85   3c6ef372   fa2a4622   510e527f   9b05688c   1f83d9ab
+      _t=1:   5a6ad9ad   5d6aebcd   6a09e667   bb67ae85   78ce7989   fa2a4622   510e527f   9b05688c
+      _t=2:   c8c347a7   5a6ad9ad   5d6aebcd   6a09e667   f92939eb   78ce7989   fa2a4622   510e527f
+      _t=3:   d550f666   c8c347a7   5a6ad9ad   5d6aebcd   24e00850   f92939eb   78ce7989   fa2a4622
+      _t=4:   04409a6a   d550f666   c8c347a7   5a6ad9ad   43ada245   24e00850   f92939eb   78ce7989
+      _t=5:   2b4209f5   04409a6a   d550f666   c8c347a7   714260ad   43ada245   24e00850   f92939eb
+      _t=6:   e5030380   2b4209f5   04409a6a   d550f666   9b27a401   714260ad   43ada245   24e00850
+      _t=7:   85a07b5f   e5030380   2b4209f5   04409a6a   0c657a79   9b27a401   714260ad   43ada245
+      _t=8:   8e04ecb9   85a07b5f   e5030380   2b4209f5   32ca2d8c   0c657a79   9b27a401   714260ad
+      _t=9:   8c87346b   8e04ecb9   85a07b5f   e5030380   1cc92596   32ca2d8c   0c657a79   9b27a401
+      _t=10:   4798a3f4   8c87346b   8e04ecb9   85a07b5f   436b23e8   1cc92596   32ca2d8c   0c657a79
+      _t=11:   f71fc5a9   4798a3f4   8c87346b   8e04ecb9   816fd6e9   436b23e8   1cc92596   32ca2d8c
+      _t=12:   87912990   f71fc5a9   4798a3f4   8c87346b   1e578218   816fd6e9   436b23e8   1cc92596
+      _t=13:   d932eb16   87912990   f71fc5a9   4798a3f4   745a48de   1e578218   816fd6e9   436b23e8
+      _t=14:   c0645fde   d932eb16   87912990   f71fc5a9   0b92f20c   745a48de   1e578218   816fd6e9
+      _t=15:   b0fa238e   c0645fde   d932eb16   87912990   07590dcd   0b92f20c   745a48de   1e578218
+      _t=16:   21da9a9b   b0fa238e   c0645fde   d932eb16   8034229c   07590dcd   0b92f20c   745a48de
+      _t=17:   c2fbd9d1   21da9a9b   b0fa238e   c0645fde   846ee454   8034229c   07590dcd   0b92f20c
+      _t=18:   fe777bbf   c2fbd9d1   21da9a9b   b0fa238e   cc899961   846ee454   8034229c   07590dcd
+      _t=19:   e1f20c33   fe777bbf   c2fbd9d1   21da9a9b   b0638179   cc899961   846ee454   8034229c
+      _t=20:   9dc68b63   e1f20c33   fe777bbf   c2fbd9d1   8ada8930   b0638179   cc899961   846ee454
+      _t=21:   c2606d6d   9dc68b63   e1f20c33   fe777bbf   e1257970   8ada8930   b0638179   cc899961
+      _t=22:   a7a3623f   c2606d6d   9dc68b63   e1f20c33   49f5114a   e1257970   8ada8930   b0638179
+      _t=23:   c5d53d8d   a7a3623f   c2606d6d   9dc68b63   aa47c347   49f5114a   e1257970   8ada8930
+      _t=24:   1c2c2838   c5d53d8d   a7a3623f   c2606d6d   2823ef91   aa47c347   49f5114a   e1257970
+      _t=25:   cde8037d   1c2c2838   c5d53d8d   a7a3623f   14383d8e   2823ef91   aa47c347   49f5114a
+      _t=26:   b62ec4bc   cde8037d   1c2c2838   c5d53d8d   c74c6516   14383d8e   2823ef91   aa47c347
+      _t=27:   77d37528   b62ec4bc   cde8037d   1c2c2838   edffbff8   c74c6516   14383d8e   2823ef91
+      _t=28:   363482c9   77d37528   b62ec4bc   cde8037d   6112a3b7   edffbff8   c74c6516   14383d8e
+      _t=29:   a0060b30   363482c9   77d37528   b62ec4bc   ade79437   6112a3b7   edffbff8   c74c6516
+      _t=30:   ea992a22   a0060b30   363482c9   77d37528   0109ab3a   ade79437   6112a3b7   edffbff8
+      _t=31:   73b33bf5   ea992a22   a0060b30   363482c9   ba591112   0109ab3a   ade79437   6112a3b7
+      _t=32:   98e12507   73b33bf5   ea992a22   a0060b30   9cd9f5f6   ba591112   0109ab3a   ade79437
+      _t=33:   fe604df5   98e12507   73b33bf5   ea992a22   59249dd3   9cd9f5f6   ba591112   0109ab3a
+      _t=34:   a9a7738c   fe604df5   98e12507   73b33bf5   085f3833   59249dd3   9cd9f5f6   ba591112
+      _t=35:   65a0cfe4   a9a7738c   fe604df5   98e12507   f4b002d6   085f3833   59249dd3   9cd9f5f6
+      _t=36:   41a65cb1   65a0cfe4   a9a7738c   fe604df5   0772a26b   f4b002d6   085f3833   59249dd3
+      _t=37:   34df1604   41a65cb1   65a0cfe4   a9a7738c   a507a53d   0772a26b   f4b002d6   085f3833
+      _t=38:   6dc57a8a   34df1604   41a65cb1   65a0cfe4   f0781bc8   a507a53d   0772a26b   f4b002d6
+      _t=39:   79ea687a   6dc57a8a   34df1604   41a65cb1   1efbc0a0   f0781bc8   a507a53d   0772a26b
+      _t=40:   d6670766   79ea687a   6dc57a8a   34df1604   26352d63   1efbc0a0   f0781bc8   a507a53d
+      _t=41:   df46652f   d6670766   79ea687a   6dc57a8a   838b2711   26352d63   1efbc0a0   f0781bc8
+      _t=42:   17aa0dfe   df46652f   d6670766   79ea687a   decd4715   838b2711   26352d63   1efbc0a0
+      _t=43:   9d4baf93   17aa0dfe   df46652f   d6670766   fda24c2e   decd4715   838b2711   26352d63
+      _t=44:   26628815   9d4baf93   17aa0dfe   df46652f   a80f11f0   fda24c2e   decd4715   838b2711
+      _t=45:   72ab4b91   26628815   9d4baf93   17aa0dfe   b7755da1   a80f11f0   fda24c2e   decd4715
+      _t=46:   a14c14b0   72ab4b91   26628815   9d4baf93   d57b94a9   b7755da1   a80f11f0   fda24c2e
+      _t=47:   4172328d   a14c14b0   72ab4b91   26628815   fecf0bc6   d57b94a9   b7755da1   a80f11f0
+      _t=48:   05757ceb   4172328d   a14c14b0   72ab4b91   bd714038   fecf0bc6   d57b94a9   b7755da1
+      _t=49:   f11bfaa8   05757ceb   4172328d   a14c14b0   6e5c390c   bd714038   fecf0bc6   d57b94a9
+      _t=50:   7a0508a1   f11bfaa8   05757ceb   4172328d   52f1ccf7   6e5c390c   bd714038   fecf0bc6
+      _t=51:   886e7a22   7a0508a1   f11bfaa8   05757ceb   49231c1e   52f1ccf7   6e5c390c   bd714038
+      _t=52:   101fd28f   886e7a22   7a0508a1   f11bfaa8   529e7d00   49231c1e   52f1ccf7   6e5c390c
+      _t=53:   f5702fdb   101fd28f   886e7a22   7a0508a1   9f4787c3   529e7d00   49231c1e   52f1ccf7
+      _t=54:   3ec45cdb   f5702fdb   101fd28f   886e7a22   e50e1b4f   9f4787c3   529e7d00   49231c1e
+      _t=55:   38cc9913   3ec45cdb   f5702fdb   101fd28f   54cb266b   e50e1b4f   9f4787c3   529e7d00
+      _t=56:   fcd1887b   38cc9913   3ec45cdb   f5702fdb   9b5e906c   54cb266b   e50e1b4f   9f4787c3
+      _t=57:   c062d46f   fcd1887b   38cc9913   3ec45cdb   7e44008e   9b5e906c   54cb266b   e50e1b4f
+      _t=58:   ffb70472   c062d46f   fcd1887b   38cc9913   6d83bfc6   7e44008e   9b5e906c   54cb266b
+      _t=59:   b6ae8fff   ffb70472   c062d46f   fcd1887b   b21bad3d   6d83bfc6   7e44008e   9b5e906c
+      _t=60:   b85e2ce9   b6ae8fff   ffb70472   c062d46f   961f4894   b21bad3d   6d83bfc6   7e44008e
+      _t=61:   04d24d6c   b85e2ce9   b6ae8fff   ffb70472   948d25b6   961f4894   b21bad3d   6d83bfc6
+      _t=62:   d39a2165   04d24d6c   b85e2ce9   b6ae8fff   fb121210   948d25b6   961f4894   b21bad3d
+      _t=63:   506e3058   d39a2165   04d24d6c   b85e2ce9   5ef50f24   fb121210   948d25b6   961f4894
+
+H0: 6a09e667 + 506e3058 = ba7816bf
+H1: bb67ae85 + d39a2165 = 8f01cfea
+H2: 3c6ef372 + 04d24d6c = 414140de
+H3: a54ff53a + b85e2ce9 = 5dae2223
+H4: 510e527f + 5ef50f24 = b00361a3
+H5: 9b05688c + fb121210 = 96177a9c
+H6: 1f83d9ab + 948d25b6 = b410ff61
+H7: 5be0cd19 + 961f4894 = f20015ad
+
+Generated Digest: ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad
+hashlib Digest:   ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad
+
+PASSED: DIGESTS ARE EQUAL
